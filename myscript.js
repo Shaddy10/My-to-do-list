@@ -12,9 +12,9 @@ function addItem(){
     var divChild=document.createElement("div");
     var checkIcon=document.createElement("i");
     var trashIcon=document.createElement("i");
-    //left side of task
+    //left side of the task
     divParent.className="item";
-    //right side of task(Icons)
+    //right side of the task(Icons)
     divParent.innerHTML='<div>'+input.value+'</div>';
     //check Icon
     checkIcon.className="fas fa-check-square";
